@@ -1,5 +1,5 @@
 // let offset = 0;
-import * as Slider from'./index'
+import Slider from '../modules/index.js';
 
 const impressiveSlider = document.querySelector('.impressive__sliderline');
 const impressiveItems = document.querySelectorAll('.impressive__item');

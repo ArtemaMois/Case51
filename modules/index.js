@@ -27,7 +27,9 @@ export class Slider{
             }
             parrent.style.right = this.offset + 'px';
             items[this.step].classList.add(styleName);
-            dots[this.step].classList.add('active');
+            if(dots !== null){
+                dots[this.step].classList.add('active');
+            }
             if (this.step === items.length-1 ){
                 this.step = 0;
             } else{
@@ -42,7 +44,6 @@ export class Slider{
                     items[this.step-1].classList.remove(styleName);
                 }
                 this.offset += items[0].clientWidth;
-                console.log(this.offset)
                 if (this.offset > (items[0].clientWidth + 40)){
                     this.offset = -items[0].clientWidth;
                 }
@@ -63,7 +64,6 @@ export class Slider{
                     items[this.step-1].classList.remove(styleName);
                 }
                 this.offset -= items[0].clientWidth;
-                console.log(this.offset)
                 if (this.offset < -items[0].clientWidth){
                     this.offset = items[0].clientWidth;
                 }
@@ -81,5 +81,7 @@ export class Slider{
     }
 
 }
+
+export default Slider;
 
 
