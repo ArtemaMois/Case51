@@ -669,7 +669,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 .creative__top {
@@ -700,7 +700,7 @@ main{
 .creative__header {
   width: 495px;
   height: 116px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   text-align: center;
 }
 
@@ -710,7 +710,7 @@ main{
   color: #24272E;
 }
 .creative__subheader {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   max-width: 664px;
   height: 96px;
   font-family: 'ITC Avant Garde Gothic-Bk', sans-serif;
@@ -724,7 +724,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 .creative__container{
   display: flex;
@@ -758,7 +758,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .creative__title{
