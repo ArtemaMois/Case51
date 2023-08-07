@@ -839,12 +839,24 @@ main{
   justify-content: space-between;
   margin: 98px 412px 0px 0px;
 }
-.impressive__prev {
+.impressive__button{
+  width: 48px;
+  height: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48px;
-  height: 48px;
+}
+
+
+#impressive__prev{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
 }
 
 .impressive__prev img{
@@ -858,12 +870,16 @@ main{
   background-color: rgba(158, 158, 158, 0.444);
 }
 
-.impressive__next {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+#impressive__next{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
 }
 .impressive__next img{
   width: 40px;
